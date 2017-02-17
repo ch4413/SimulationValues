@@ -18,7 +18,11 @@ include: normal (mean, sd), poisson (lambda) and binomial (size, prob)}
 Vector of simulated values
 }
 \description{
-A function used for
+A function that simulates numbers from a given distribution. The
+function takes one argument for the number of samples (n) and a second
+argument which specifies the distribution (Normal, Poisson or Binomial).
+The function takes additional parameters depending on the
+distribution chosen, e.g. a ‘lambda’ for Poisson samples.
 }
 \examples{
 sim_values(10, "Normal", mean = 5)

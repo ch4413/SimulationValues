@@ -1,6 +1,10 @@
 #' Simulate Values
 #'
-#' A function used for
+#' A function that simulates numbers from a given distribution. The
+#' function takes one argument for the number of samples (n) and a second
+#' argument which specifies the distribution (Normal, Poisson or Binomial).
+#' The function takes additional parameters depending on the
+#' distribution chosen, e.g. a ‘lambda’ for Poisson samples.
 #'
 #' @param n numeric value for number of values to be returned
 #' @param dist string value of distribution to sample from

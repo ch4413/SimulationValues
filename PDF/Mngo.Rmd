@@ -134,3 +134,5 @@ df_sim <- data.frame(Values =sim_values(1000, dist = "NORMAL", mean = 5))
 ggplot() + geom_histogram(data = df_sim,mapping = aes(Values), bins = 30,
                           fill = "red", alpha = 0.5)
 ```
+
+2. Build an R package containing the function above. Use any tools as necessary.
