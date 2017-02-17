@@ -2,7 +2,7 @@ Package: SimulationValues
 Type: Package
 Title: Generate values from a given distribution
 Version: 0.1.0
-Depends: R (>= 3.2.0), stats
+Depends: R (>= 3.2.0), stats, ggplot2
 Author: Christopher Hughes <christopher.hughes@bath.edu>
 Maintainer: Christopher Hughes <christopher.hughes@bath.edu>
 Description: Generate simulated values from the normal, poisson and binomial distribution.
