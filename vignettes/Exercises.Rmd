@@ -114,3 +114,12 @@ sim_values <- function(n, dist = "Normal", ...) {
   
 }
 ```
+
+We can see the function in action:
+
+```{r}
+library(ggplot2)
+df_sim <- data.frame(Values =sim_values(1000, dist = "NORMAL", mean = 5))
+
+ggplot() + geom_histogram(data = df_sim, mapping = aes(Values), bins = 30, fill = "red", alpha = 0.5)
+```
